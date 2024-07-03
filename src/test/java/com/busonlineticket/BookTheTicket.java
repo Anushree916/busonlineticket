@@ -50,7 +50,7 @@ public class BookTheTicket {
 	
 	//Select date
 	driver.findElement(By.id("txtDepartDateBooking")).click();
-	selectDate(driver,"August","20");
+	selectDate(driver,"August","21");
 	
 	//Search bus
 	driver.findElement(By.id("btnBusSearchNewGeneral")).click();
